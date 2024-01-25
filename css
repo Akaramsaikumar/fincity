@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-color: #f5f4f2;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.main-image {
+    height: 400px;
+    margin-top: -30px;
+
+}
+
+.about-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+@media screen and (max-width:667px) {
+    .about-con {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-content {
+        width: 100%;
+
+    }
+
+    .lists-con {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .yoga {
+        height: 25px;
+        width: 30px;
+    }
+
+    .menu-item {
+        font-size: 10px;
+    }
+}
+
+.about-content {
+    width: 30%;
+    margin-left: 150px;
+
+}
+
+.projects-btn {
+    width: 105px;
+    height: 25px;
+    background-color: #ebb734;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.linkedIn-btn {
+    width: 105px;
+    height: 25px;
+    border: 1px solid #595856;
+    border-radius: 5px;
+}
+
+.ui {
+    color: #ebb734;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-head {
+    color: #595856;
+}
+
+.user-input {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.add-pro-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    background-color: #f5f4f2;
+
+
+}
+
+.fot {
+    width: 100%;
+    margin-top: 240px;
+}
+
+.add-btn {
+    width: 85px;
+    height: 25px;
+    background-color: #ebb734;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.names {
+    margin-top: 5px;
+}
+
+.user-input {
+    margin-top: 5px;
+}
+
+.sec-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo-item-container {
+    list-style: none;
+    background-color: #fff;
+    width: 250px;
+    height: 30vh;
+    border-radius: 10px;
+
+}
+
+.viewbtn {
+    width: 105px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.sec-container {
+    min-height: 50vh;
+    background-color: #f5f4f2;
+}
+
+.yoga {
+    height: 400px;
+    width: 300px;
+}
+
+.view {
+    width: 105px;
+    height: 25px;
+    background-color: #cccbc8;
+    border: 0;
+    border-radius: 10px;
+}
+
+.lists-con {
+    display: flex;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.sec-lis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.insta {
+    height: 70px;
+}
+
+.class-contact {
+    height: 20vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.icons {
+    margin-right: 40px;
+    margin-top: 40px;
+}
